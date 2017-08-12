@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FFE8071F3ED621004A9F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFE8061F3ED621004A9F70 /* AppDelegate.swift */; };
+		53FFE8091F3ED621004A9F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFE8081F3ED621004A9F70 /* ViewController.swift */; };
+		53FFE80B1F3ED621004A9F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FFE80A1F3ED621004A9F70 /* Assets.xcassets */; };
+		53FFE80E1F3ED621004A9F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFE80C1F3ED621004A9F70 /* Main.storyboard */; };
+		53FFE81A1F3ED622004A9F70 /* MathTutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFE8191F3ED622004A9F70 /* MathTutorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53FFE8161F3ED622004A9F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53FFE7FB1F3ED620004A9F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53FFE8021F3ED621004A9F70;
+			remoteInfo = MathTutor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53FFE8031F3ED621004A9F70 /* MathTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FFE8061F3ED621004A9F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53FFE8081F3ED621004A9F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53FFE80A1F3ED621004A9F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53FFE80D1F3ED621004A9F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53FFE80F1F3ED621004A9F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FFE8101F3ED621004A9F70 /* MathTutor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathTutor.entitlements; sourceTree = "<group>"; };
+		53FFE8151F3ED622004A9F70 /* MathTutorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTutorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FFE8191F3ED622004A9F70 /* MathTutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTutorTests.swift; sourceTree = "<group>"; };
+		53FFE81B1F3ED622004A9F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FFE8001F3ED621004A9F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FFE8121F3ED622004A9F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FFE7FA1F3ED620004A9F70 = {
+			isa = PBXGroup;
+			children = (
+				53FFE8051F3ED621004A9F70 /* MathTutor */,
+				53FFE8181F3ED622004A9F70 /* MathTutorTests */,
+				53FFE8041F3ED621004A9F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53FFE8041F3ED621004A9F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FFE8031F3ED621004A9F70 /* MathTutor.app */,
+				53FFE8151F3ED622004A9F70 /* MathTutorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FFE8051F3ED621004A9F70 /* MathTutor */ = {
+			isa = PBXGroup;
+			children = (
+				53FFE8061F3ED621004A9F70 /* AppDelegate.swift */,
+				53FFE8081F3ED621004A9F70 /* ViewController.swift */,
+				53FFE80A1F3ED621004A9F70 /* Assets.xcassets */,
+				53FFE80C1F3ED621004A9F70 /* Main.storyboard */,
+				53FFE80F1F3ED621004A9F70 /* Info.plist */,
+				53FFE8101F3ED621004A9F70 /* MathTutor.entitlements */,
+			);
+			path = MathTutor;
+			sourceTree = "<group>";
+		};
+		53FFE8181F3ED622004A9F70 /* MathTutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				53FFE8191F3ED622004A9F70 /* MathTutorTests.swift */,
+				53FFE81B1F3ED622004A9F70 /* Info.plist */,
+			);
+			path = MathTutorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FFE8021F3ED621004A9F70 /* MathTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FFE81E1F3ED622004A9F70 /* Build configuration list for PBXNativeTarget "MathTutor" */;
+			buildPhases = (
+				53FFE7FF1F3ED621004A9F70 /* Sources */,
+				53FFE8001F3ED621004A9F70 /* Frameworks */,
+				53FFE8011F3ED621004A9F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTutor;
+			productName = MathTutor;
+			productReference = 53FFE8031F3ED621004A9F70 /* MathTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53FFE8141F3ED622004A9F70 /* MathTutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FFE8211F3ED622004A9F70 /* Build configuration list for PBXNativeTarget "MathTutorTests" */;
+			buildPhases = (
+				53FFE8111F3ED622004A9F70 /* Sources */,
+				53FFE8121F3ED622004A9F70 /* Frameworks */,
+				53FFE8131F3ED622004A9F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53FFE8171F3ED622004A9F70 /* PBXTargetDependency */,
+			);
+			name = MathTutorTests;
+			productName = MathTutorTests;
+			productReference = 53FFE8151F3ED622004A9F70 /* MathTutorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FFE7FB1F3ED620004A9F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Keith;
+				TargetAttributes = {
+					53FFE8021F3ED621004A9F70 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					53FFE8141F3ED622004A9F70 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 53FFE8021F3ED621004A9F70;
+					};
+				};
+			};
+			buildConfigurationList = 53FFE7FE1F3ED620004A9F70 /* Build configuration list for PBXProject "MathTutor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53FFE7FA1F3ED620004A9F70;
+			productRefGroup = 53FFE8041F3ED621004A9F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FFE8021F3ED621004A9F70 /* MathTutor */,
+				53FFE8141F3ED622004A9F70 /* MathTutorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FFE8011F3ED621004A9F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FFE80B1F3ED621004A9F70 /* Assets.xcassets in Resources */,
+				53FFE80E1F3ED621004A9F70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FFE8131F3ED622004A9F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FFE7FF1F3ED621004A9F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FFE8091F3ED621004A9F70 /* ViewController.swift in Sources */,
+				53FFE8071F3ED621004A9F70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53FFE8111F3ED622004A9F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FFE81A1F3ED622004A9F70 /* MathTutorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53FFE8171F3ED622004A9F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53FFE8021F3ED621004A9F70 /* MathTutor */;
+			targetProxy = 53FFE8161F3ED622004A9F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53FFE80C1F3ED621004A9F70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FFE80D1F3ED621004A9F70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53FFE81C1F3ED622004A9F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53FFE81D1F3ED622004A9F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		53FFE81F1F3ED622004A9F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MathTutor/MathTutor.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathTutor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keithstaines.MathTutor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		53FFE8201F3ED622004A9F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MathTutor/MathTutor.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathTutor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keithstaines.MathTutor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		53FFE8221F3ED622004A9F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathTutorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keithstaines.MathTutorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTutor.app/Contents/MacOS/MathTutor";
+			};
+			name = Debug;
+		};
+		53FFE8231F3ED622004A9F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathTutorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keithstaines.MathTutorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTutor.app/Contents/MacOS/MathTutor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FFE7FE1F3ED620004A9F70 /* Build configuration list for PBXProject "MathTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FFE81C1F3ED622004A9F70 /* Debug */,
+				53FFE81D1F3ED622004A9F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FFE81E1F3ED622004A9F70 /* Build configuration list for PBXNativeTarget "MathTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FFE81F1F3ED622004A9F70 /* Debug */,
+				53FFE8201F3ED622004A9F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FFE8211F3ED622004A9F70 /* Build configuration list for PBXNativeTarget "MathTutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FFE8221F3ED622004A9F70 /* Debug */,
+				53FFE8231F3ED622004A9F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FFE7FB1F3ED620004A9F70 /* Project object */;
+}
