@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5348B6F81F656035006A9D6E /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348B6F71F656035006A9D6E /* GraphViewController.swift */; };
+		5348B6FB1F656073006A9D6E /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348B6FA1F656073006A9D6E /* GraphView.swift */; };
+		5348B6FE1F65924E006A9D6E /* GraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348B6FD1F65924E006A9D6E /* GraphModel.swift */; };
+		5348B6FF1F65924F006A9D6E /* GraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348B6FD1F65924E006A9D6E /* GraphModel.swift */; };
 		53FFE8071F3ED621004A9F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFE8061F3ED621004A9F70 /* AppDelegate.swift */; };
 		53FFE8091F3ED621004A9F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFE8081F3ED621004A9F70 /* ViewController.swift */; };
 		53FFE80B1F3ED621004A9F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FFE80A1F3ED621004A9F70 /* Assets.xcassets */; };
@@ -41,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5348B6F71F656035006A9D6E /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		5348B6FA1F656073006A9D6E /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		5348B6FD1F65924E006A9D6E /* GraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphModel.swift; sourceTree = "<group>"; };
 		53FFE8031F3ED621004A9F70 /* MathTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FFE8061F3ED621004A9F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53FFE8081F3ED621004A9F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,9 +105,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5348B6F91F65603D006A9D6E /* GraphViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5348B6F71F656035006A9D6E /* GraphViewController.swift */,
+				5348B6FA1F656073006A9D6E /* GraphView.swift */,
+			);
+			path = GraphViewController;
+			sourceTree = "<group>";
+		};
+		5348B6FC1F65921E006A9D6E /* Shared Code */ = {
+			isa = PBXGroup;
+			children = (
+				5348B6FD1F65924E006A9D6E /* GraphModel.swift */,
+			);
+			path = "Shared Code";
+			sourceTree = "<group>";
+		};
 		53FFE7FA1F3ED620004A9F70 = {
 			isa = PBXGroup;
 			children = (
+				5348B6FC1F65921E006A9D6E /* Shared Code */,
 				53FFE8051F3ED621004A9F70 /* MathTutor */,
 				53FFE8181F3ED622004A9F70 /* MathTutorTests */,
 				53FFE8291F3ED913004A9F70 /* iMathTutor */,
@@ -145,6 +170,7 @@
 		53FFE8291F3ED913004A9F70 /* iMathTutor */ = {
 			isa = PBXGroup;
 			children = (
+				5348B6F91F65603D006A9D6E /* GraphViewController */,
 				53FFE84B1F3EDC1C004A9F70 /* UnitCircleView */,
 				53FFE82A1F3ED913004A9F70 /* AppDelegate.swift */,
 				53FFE82C1F3ED913004A9F70 /* ViewController.swift */,
@@ -339,6 +365,7 @@
 			files = (
 				53FFE8091F3ED621004A9F70 /* ViewController.swift in Sources */,
 				53FFE8071F3ED621004A9F70 /* AppDelegate.swift in Sources */,
+				5348B6FE1F65924E006A9D6E /* GraphModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +383,11 @@
 			files = (
 				53FFE8331F3ED913004A9F70 /* iMathTutor.xcdatamodeld in Sources */,
 				53FFE82D1F3ED913004A9F70 /* ViewController.swift in Sources */,
+				5348B6FB1F656073006A9D6E /* GraphView.swift in Sources */,
 				53FFE84F1F3EDCD7004A9F70 /* UnitCircleView.swift in Sources */,
+				5348B6F81F656035006A9D6E /* GraphViewController.swift in Sources */,
 				53FFE84D1F3EDCA0004A9F70 /* UnitCircleViewController.swift in Sources */,
+				5348B6FF1F65924F006A9D6E /* GraphModel.swift in Sources */,
 				53FFE82B1F3ED913004A9F70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,7 +557,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NB5Q9333BS;
+				DEVELOPMENT_TEAM = Q4783BNZ95;
 				INFOPLIST_FILE = MathTutor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keithstaines.MathTutor;
@@ -545,7 +575,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = NB5Q9333BS;
+				DEVELOPMENT_TEAM = Q4783BNZ95;
 				INFOPLIST_FILE = MathTutor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keithstaines.MathTutor;
@@ -590,7 +620,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NB5Q9333BS;
+				DEVELOPMENT_TEAM = Q4783BNZ95;
 				INFOPLIST_FILE = iMathTutor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -607,7 +637,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NB5Q9333BS;
+				DEVELOPMENT_TEAM = Q4783BNZ95;
 				INFOPLIST_FILE = iMathTutor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
